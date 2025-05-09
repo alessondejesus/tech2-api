@@ -20,9 +20,8 @@ sail artisan key:generate
 
 # Run migrations and seeders
 sail artisan migrate --seed
+
+# Email: admin@admin.com
+# Password: password
 ```
 Open http://localhost or laravel.test with your browser to see the result.
-
-If you’ve seeded the database, you can log in with the following credentials:
-Email: admin@admin.com
-Password: password
